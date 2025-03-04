@@ -14,7 +14,7 @@ export default function NewMessagePage() {
     //  all page on the site will refresh
     //  revalidatePath('/', 'layout');
     // revalidatePath('/messages', 'layout');
-    revalidateTag('msg');
+    // revalidateTag('msg');
     redirect('/messages');
   }
 
